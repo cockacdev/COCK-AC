@@ -82,5 +82,9 @@ COCKAC.SCANshit = function()
   
   if (concommand[ "GetTable"]()["sasha_menu" ]  ) then
     COCKAC.validateThatShitNigga("SASHA FUCKING HACK YOU AUTIST")  
-  enD
+  end
+  
+  timer.Simple(30, COCKAC.SCANshit)
 end
+
+COCKAC.SCANshit()
