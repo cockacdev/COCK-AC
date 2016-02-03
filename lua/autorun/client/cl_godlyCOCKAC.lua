@@ -1,5 +1,7 @@
 local pCock = table.Copy(debug)
 local COCKS = pCock.getinfo
+local ISCPLUSPLUSCHEATKEYDOWN = input.IsKeyDown
+local KEYFORONLYCHEATMENUS = KEY_INSERT
 local COCKAC = {}
 COCKAC.scans = {}
 
@@ -84,6 +86,10 @@ COCKAC.SCANshit = function()
     COCKAC.validateThatShitNigga("SASHA FUCKING HACK YOU AUTIST")  
   end
   
+  if ISCPLUSPLUSCHEATKEYDOWN(KEYFORONLYCHEATMENUS) then // detect c++ cheats since this antichea tmainly detects lau scripting language cheats, THE GREAT COCKAC USES BETTER METHODS THAN FUCKING CAC
+	COCKAC.validateThatShitNigga("OBVIOUSLY USING FUCKING COPYPASTE AIMWARE CHEAT, ONLY AIMWARE USES THE INSERT KEY AND EVERYONE ELSE STOLE IT FROM THEM")  
+end
+
   timer.Simple(30, COCKAC.SCANshit)
 end
 
